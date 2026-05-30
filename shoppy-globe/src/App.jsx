@@ -1,6 +1,7 @@
 import { lazy, Suspense } from 'react'
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 // Lazy-loaded pages for code splitting (performance optimization)
 
@@ -25,6 +26,7 @@ const RootLayout = () => (
     <Suspense fallback={<PageLoader />}>
       <Outlet />
     </Suspense>
+      <Footer /> 
   </div>
 )
 
