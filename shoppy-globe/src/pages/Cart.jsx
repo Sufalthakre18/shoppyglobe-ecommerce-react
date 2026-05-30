@@ -1,4 +1,3 @@
-// pages/Cart.jsx
 // Displays all cart items with a summary of totals and checkout link
 import { Link } from 'react-router-dom'
 import { useSelector } from 'react-redux'
