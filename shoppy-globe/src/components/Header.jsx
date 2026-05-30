@@ -22,8 +22,8 @@ const Header = () => {
 
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-orange-500 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">SG</span>
+            <div className="w-9 h-8 bg-transparent rounded-lg flex items-center justify-center">
+              <img src="/public/favicon.png" alt="" />
             </div>
             <span className="text-xl font-bold text-slate-800" style={{ fontFamily: 'Syne, sans-serif' }}>
               ShoppyGlobe
